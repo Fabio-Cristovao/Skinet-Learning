@@ -3,7 +3,18 @@ services:
     image: mcr.microsoft.com/mssql/server:2022-latest
     ports: 
       - "1433:1433"
+    volumes:
+      - sql-data:/var/opt/mssql  
     environment:
       ACCEPT_EULA: "Y"
       SA_PASSWORD: "Password@1"
-    
+  redis:
+    image: redis:latest
+    ports:  
+      - "6379:6379" 
+    volumes: 
+      - redis-data:/data
+
+volumes:
+  redis-data:
+  sql-data:
