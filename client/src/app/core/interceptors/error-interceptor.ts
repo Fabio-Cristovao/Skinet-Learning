@@ -24,6 +24,8 @@ export const errorInterceptor: HttpInterceptorFn = (req, next) => {
         }
       }
 
+      console.error('HTTP ERROR:', err);
+
       if (err.status === 401) {
         snackbar.error(err.error.title || err.error);
       }
