@@ -55,9 +55,11 @@ app.UseRouting(); // 👈 Add this
 app.UseAuthentication(); // 👈 And this
 app.UseAuthorization(); // 👈 And this
 app.MapHub<NotificationHub>("/hub/notifications");
-
+app.UseDefaultFiles();
+app.UseStaticFiles();
 app.MapControllers();
 app.MapGroup("api").MapIdentityApi<AppUser>();
+app.MapFallbackToController("Index", "Fallback");
 
 try
 
