@@ -1,14 +1,21 @@
-using System;
+﻿using Core.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Infrastructure.Config;
-
-public class ProductConfiguration : IEntityTypeConfiguration<Core.Entities.Product>
+namespace Infrastructure.Config
 {
-    public void Configure(EntityTypeBuilder<Core.Entities.Product> builder)
+    internal class ProductConfiguration : IEntityTypeConfiguration<Product>
     {
-        builder.Property(x => x.Price).HasColumnType("decimal(18,2)");
-        builder.Property(x => x.Name).IsRequired();
+        public void Configure(EntityTypeBuilder<Product> builder)
+        {
+            builder.Property(x => x.Price).HasColumnType("decimal(18,2)");
+            builder.Property(x => x.Name).IsRequired();
+        }
     }
 }
