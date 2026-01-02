@@ -11,12 +11,12 @@ namespace Infrastructure.Data
 {
     public class ProductRepository(StoreContext context) : IProductRepository
     {
-        public void AddProduct(Product product)
+        public void AddProduct(ProductDTO product)
         {
             context.Products.Add(product);
         }
 
-        public void DeleteProduct(Product product)
+        public void DeleteProduct(ProductDTO product)
         {
             context.Products.Remove(product);
         }
@@ -28,12 +28,12 @@ namespace Infrastructure.Data
                 .ToListAsync();
         }
 
-        async public Task<Product?> GetProductByIdAsync(int id)
+        async public Task<ProductDTO?> GetProductByIdAsync(int id)
         {
             return await context.Products.FindAsync(id);
         }
 
-        async public Task<IReadOnlyList<Product>> GetProductsAsync(string? brand, string? type, string? sort)
+        async public Task<IReadOnlyList<ProductDTO>> GetProductsAsync(string? brand, string? type, string? sort)
         {
             var query = context.Products.AsQueryable();
 
@@ -77,7 +77,7 @@ namespace Infrastructure.Data
             return await context.SaveChangesAsync() > 0;
         }
 
-        public void UpdateProduct(Product product)
+        public void UpdateProduct(ProductDTO product)
         {
             context.Products.Entry(product).State = EntityState.Modified;
         }

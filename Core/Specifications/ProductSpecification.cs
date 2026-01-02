@@ -12,7 +12,7 @@ using System.Xml.Linq;
 
 namespace Core.Specifications
 {
-    public class ProductSpecification : BaseSpecification<Product>
+    public class ProductSpecification : BaseSpecification<ProductDTO>
     {
 
 

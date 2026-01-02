@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Core.Specifications
 {
-    public class TypeListSpecification : BaseSpecification<Product, string>
+    public class TypeListSpecification : BaseSpecification<ProductDTO, string>
     {
         public TypeListSpecification()
         {

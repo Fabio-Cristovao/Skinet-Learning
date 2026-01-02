@@ -12,7 +12,7 @@ namespace Infrastructure.Data
 {
     public class StoreContext(DbContextOptions options) : DbContext(options)
     {
-        public DbSet<Product> Products { get; set; }
+        public DbSet<ProductDTO> Products { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
