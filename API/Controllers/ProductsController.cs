@@ -6,11 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers;
 
-public class ProductsController(IGenericRepository<Product> repo) : BaseAPIController
+public class ProductsController(IGenericRepository<ProductDTO> repo) : BaseAPIController
 {
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Product>>> GetProducts([FromQuery]ProductSpecParams specParams)
+    public async Task<ActionResult<IEnumerable<ProductDTO>>> GetProducts([FromQuery]ProductSpecParams specParams)
     {
         var spec = new ProductSpecification(specParams);
 
@@ -18,7 +18,7 @@ public class ProductsController(IGenericRepository<Product> repo) : BaseAPIContr
     }
 
     [HttpGet("{id:int}")]
-    public async Task<ActionResult<Product>> GetProduct(int id)
+    public async Task<ActionResult<ProductDTO>> GetProduct(int id)
     {
         var product = await repo.GetByIdAsync(id);
 
@@ -28,7 +28,7 @@ public class ProductsController(IGenericRepository<Product> repo) : BaseAPIContr
     }
 
     [HttpPost]
-    public async Task<ActionResult<Product>> CreateProduct(Product product)
+    public async Task<ActionResult<ProductDTO>> CreateProduct(ProductDTO product)
     {
         repo.Add(product);
 
@@ -41,7 +41,7 @@ public class ProductsController(IGenericRepository<Product> repo) : BaseAPIContr
     }
 
     [HttpPut("{id:int}")]
-    public async Task<ActionResult> UpdateProduct(int id, Product product)
+    public async Task<ActionResult> UpdateProduct(int id, ProductDTO product)
     {
         // validation for null product, or not matching id product
         if (product == null || !ProductExists(id))

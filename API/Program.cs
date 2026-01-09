@@ -1,6 +1,8 @@
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Core.Interfaces;
+using API.Middleware;
+using Microsoft.AspNetCore.Builder;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddCors();
 builder.Services.AddDbContext<StoreContext>(option =>
 {
     option.UseSqlServer("Server=localhost,1433;User=sa;Database=MyDb;Password=YourStrong!Passw0rd;TrustServerCertificate=True;");
@@ -17,11 +20,9 @@ builder.Services.AddDbContext<StoreContext>(option =>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    
-}
 
+app.UseMiddleware<ExceptionMiddleware>();
+app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:4200", "http://localhost:4201"));
 app.MapControllers();
 
 try
