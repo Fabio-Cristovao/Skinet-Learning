@@ -1,0 +1,179 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\CardExchangeId\\learning\\API_c#\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF4000D-A020-4BD1-8133-487F3632A9C4}|API\\API.csproj|c:\\cardexchangeid\\learning\\api_c#\\api\\controllers\\buggycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DF4000D-A020-4BD1-8133-487F3632A9C4}|API\\API.csproj|solutionrelative:api\\controllers\\buggycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF4000D-A020-4BD1-8133-487F3632A9C4}|API\\API.csproj|c:\\cardexchangeid\\learning\\api_c#\\api\\errors\\apierrorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DF4000D-A020-4BD1-8133-487F3632A9C4}|API\\API.csproj|solutionrelative:api\\errors\\apierrorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF4000D-A020-4BD1-8133-487F3632A9C4}|API\\API.csproj|c:\\cardexchangeid\\learning\\api_c#\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DF4000D-A020-4BD1-8133-487F3632A9C4}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF4000D-A020-4BD1-8133-487F3632A9C4}|API\\API.csproj|c:\\cardexchangeid\\learning\\api_c#\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4DF4000D-A020-4BD1-8133-487F3632A9C4}|API\\API.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF4000D-A020-4BD1-8133-487F3632A9C4}|API\\API.csproj|c:\\cardexchangeid\\learning\\api_c#\\api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DF4000D-A020-4BD1-8133-487F3632A9C4}|API\\API.csproj|solutionrelative:api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF4000D-A020-4BD1-8133-487F3632A9C4}|API\\API.csproj|c:\\cardexchangeid\\learning\\api_c#\\api\\dtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DF4000D-A020-4BD1-8133-487F3632A9C4}|API\\API.csproj|solutionrelative:api\\dtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E43792BC-8BCB-4A5A-96FE-035BBF8776C4}|Core\\Core.csproj|c:\\cardexchangeid\\learning\\api_c#\\core\\entitties\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E43792BC-8BCB-4A5A-96FE-035BBF8776C4}|Core\\Core.csproj|solutionrelative:core\\entitties\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E43792BC-8BCB-4A5A-96FE-035BBF8776C4}|Core\\Core.csproj|c:\\cardexchangeid\\learning\\api_c#\\core\\specifications\\productspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E43792BC-8BCB-4A5A-96FE-035BBF8776C4}|Core\\Core.csproj|solutionrelative:core\\specifications\\productspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E43792BC-8BCB-4A5A-96FE-035BBF8776C4}|Core\\Core.csproj|c:\\cardexchangeid\\learning\\api_c#\\core\\specifications\\productspecparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E43792BC-8BCB-4A5A-96FE-035BBF8776C4}|Core\\Core.csproj|solutionrelative:core\\specifications\\productspecparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 315,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\CardExchangeId\\learning\\API_c#\\Core\\Entitties\\Product.cs",
+              "RelativeDocumentMoniker": "Core\\Entitties\\Product.cs",
+              "ToolTip": "C:\\CardExchangeId\\learning\\API_c#\\Core\\Entitties\\Product.cs",
+              "RelativeToolTip": "Core\\Entitties\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T12:34:27.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateProductDTO.cs",
+              "DocumentMoniker": "C:\\CardExchangeId\\learning\\API_c#\\API\\DTOs\\CreateProductDTO.cs",
+              "RelativeDocumentMoniker": "API\\DTOs\\CreateProductDTO.cs",
+              "ToolTip": "C:\\CardExchangeId\\learning\\API_c#\\API\\DTOs\\CreateProductDTO.cs",
+              "RelativeToolTip": "API\\DTOs\\CreateProductDTO.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T12:34:15.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\CardExchangeId\\learning\\API_c#\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\CardExchangeId\\learning\\API_c#\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T12:00:47.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\CardExchangeId\\learning\\API_c#\\API\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "API\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\CardExchangeId\\learning\\API_c#\\API\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "API\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T11:34:26.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "APIErrorResponse.cs",
+              "DocumentMoniker": "C:\\CardExchangeId\\learning\\API_c#\\API\\Errors\\APIErrorResponse.cs",
+              "RelativeDocumentMoniker": "API\\Errors\\APIErrorResponse.cs",
+              "ToolTip": "C:\\CardExchangeId\\learning\\API_c#\\API\\Errors\\APIErrorResponse.cs",
+              "RelativeToolTip": "API\\Errors\\APIErrorResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T11:30:15.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "API.csproj",
+              "DocumentMoniker": "C:\\CardExchangeId\\learning\\API_c#\\API\\API.csproj",
+              "RelativeDocumentMoniker": "API\\API.csproj",
+              "ToolTip": "C:\\CardExchangeId\\learning\\API_c#\\API\\API.csproj",
+              "RelativeToolTip": "API\\API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-02T11:29:21.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BuggyController.cs",
+              "DocumentMoniker": "C:\\CardExchangeId\\learning\\API_c#\\API\\Controllers\\BuggyController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\BuggyController.cs",
+              "ToolTip": "C:\\CardExchangeId\\learning\\API_c#\\API\\Controllers\\BuggyController.cs",
+              "RelativeToolTip": "API\\Controllers\\BuggyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T10:49:09.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductSpecification.cs",
+              "DocumentMoniker": "C:\\CardExchangeId\\learning\\API_c#\\Core\\Specifications\\ProductSpecification.cs",
+              "RelativeDocumentMoniker": "Core\\Specifications\\ProductSpecification.cs",
+              "ToolTip": "C:\\CardExchangeId\\learning\\API_c#\\Core\\Specifications\\ProductSpecification.cs",
+              "RelativeToolTip": "Core\\Specifications\\ProductSpecification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T10:28:53.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductSpecParams.cs",
+              "DocumentMoniker": "C:\\CardExchangeId\\learning\\API_c#\\Core\\Specifications\\ProductSpecParams.cs",
+              "RelativeDocumentMoniker": "Core\\Specifications\\ProductSpecParams.cs",
+              "ToolTip": "C:\\CardExchangeId\\learning\\API_c#\\Core\\Specifications\\ProductSpecParams.cs",
+              "RelativeToolTip": "Core\\Specifications\\ProductSpecParams.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T10:25:01.725Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 85,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
